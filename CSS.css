@@ -83,27 +83,23 @@ video {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    box-sizing: border-box;
+
     text-align: center;
     padding: 15px;
+
     background-color: #00062C;
     color: white;
 
-    /* CAMBIO: empuja el footer hasta abajo */
-    margin-top: auto;
-
-    /* Evita que el padding aumente el tamaño */
-    box-sizing: border-box;
+    margin: 0;
+    z-index: 10001;
 }
 
 footer h2 {
     margin: 0;
-}
-
-.imagen-flotante {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 95vh;
-    width: auto;
-    z-index: 1;
 }
