@@ -84,9 +84,11 @@ footer {
 }
 
 .imagen-flotante {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
     height: 95vh;
     width: auto;
-    z-index: 1;}
+    z-index: 1;
+    pointer-events: none;
+}
