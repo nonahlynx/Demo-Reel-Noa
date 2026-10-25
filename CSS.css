@@ -120,11 +120,12 @@ footer {
 	margin-top: auto;
 }
 
- 
 .imagen-flotante {
     position: absolute;
-    bottom: -100px;
+    bottom: 0;
     right: 0;
     height: 95vh;
     width: auto;
-    z-index: 1;}
+    z-index: 1;
+    transform: translateY(150px);
+}
