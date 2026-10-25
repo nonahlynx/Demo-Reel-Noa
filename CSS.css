@@ -127,5 +127,5 @@ footer {
     height: 95vh;
     width: auto;
     z-index: 1;
-    transform: translateY(0);
+    transform: translateY(150px);
 }
